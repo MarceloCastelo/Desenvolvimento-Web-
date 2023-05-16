@@ -1,0 +1,31 @@
+.navbar button {
+    display: flex;
+    height: 3em;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee4b;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    background: #41d649;
+   }
+   
+   .navbar button > svg {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    transition: all 0.4s ease-in;
+   }
+   
+   .navbar button:hover > svg {
+    font-size: 1.2em;
+    transform: translateX(-5px);
+   }
+   
+   .navbar button:hover {
+    box-shadow: 3px 3px 5px #d1d1d1, -3px -3px 10px #ffffff;
+    transform: translateY(-2px);
+   }

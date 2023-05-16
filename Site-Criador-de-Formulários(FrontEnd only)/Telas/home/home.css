@@ -1,0 +1,63 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /*  corpo da página */
+  body {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #F2F2F2;
+  }
+
+  /*navbar */
+  nav{
+    background-color: rgb(255, 255, 255);
+  }
+/*Barra inferior */
+
+  /*Cards */
+  .cards {
+    padding-top: 5%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 250px 250px 250px; 
+    column-gap: 100px;
+    row-gap: 100px;
+}
+  
+  .cards button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    padding: 5%;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+
+  .cards .container {
+    padding-top: 10px;
+  }
+
+  .cards img {
+    border-radius: 10px;
+  }
+  
+  .cards p {
+    padding: 10px;
+  }
+
+
+  .cards button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px #34d3997c;
+   }
+
+   .cards button:active {
+    transform: translateY(-3px);
+   }
+
