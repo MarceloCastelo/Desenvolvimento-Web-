@@ -8,7 +8,7 @@
   /*  corpo da página */
   body{
 
-    background: linear-gradient(to bottom, #0ea06f, #0c966f);
+    background-color: #F2F2F2;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -23,7 +23,7 @@
 
   /*Cards */
   .cards {
-    padding-top: 5%;
+    padding-top: 2%;
     display: grid;
     justify-content: center;
     align-items: center;
