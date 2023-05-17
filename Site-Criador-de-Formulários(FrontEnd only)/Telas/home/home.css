@@ -6,12 +6,14 @@
   }
   
   /*  corpo da página */
-  body {
-    font-family: "Poppins", sans-serif;
-    font-size: 18px;
-    line-height: 1.5;
-    background-color: #F2F2F2;
-  }
+  body{
+
+    background: linear-gradient(to bottom, #0ea06f, #0c966f);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh
+}
 
   /*navbar */
   nav{

@@ -160,7 +160,7 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #2f8d33;
+  background: linear-gradient(to bottom, #10B981, #10aa77);
   padding: 10px;
   text-align: center;
 }

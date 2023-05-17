@@ -10,8 +10,7 @@
     font-family: "Poppins", sans-serif;
     font-size: 18px;
     line-height: 1.5;
-    background-color: #F2F2F2;
-
+    background: linear-gradient(to bottom, #10B981, #047857);
     height: 100vh;
     width: 100%;
     display: flex;
